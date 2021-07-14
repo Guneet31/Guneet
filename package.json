@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --output-path docs --base-href /Guneet/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -21,8 +21,11 @@
     "@angular/platform-browser": "~10.1.5",
     "@angular/platform-browser-dynamic": "~10.1.5",
     "@angular/router": "~10.1.5",
+    "@github/typing-effect-element": "^0.1.0",
+    "angular-typewriter-effect": "0.0.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
+    "typewriter-effect": "^2.18.0",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
