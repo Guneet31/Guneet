@@ -1,0 +1,25 @@
+.card{
+
+    // border: 0.5px solid;
+    // border-color: gray;
+    border-radius: 20px !important;
+    box-shadow: 5px,10px rgb(0, 0, 0) ;
+   }
+
+   @media screen and (max-width: 490px) {
+       .card{
+        border-radius: 20px !important;
+        box-shadow: 5px,10px rgb(0, 0, 0) ;
+        margin-left: 4%;
+       }
+    .title{
+        text-align: start;
+        padding: 10px;
+    }
+
+    .subTitle
+    {
+        text-align: start;
+        padding: 8px;
+    }
+   }

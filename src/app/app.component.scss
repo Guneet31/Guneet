@@ -1,0 +1,44 @@
+.profileImage
+{
+    height: 170px;
+    width:170px;
+    border-radius: 50%;
+     justify-content: center;
+     margin-top:-6%;
+     box-shadow: 5px 5px 10px rgba(113, 88, 88, 0);
+     padding: 3px; 
+}
+.icon
+{
+   font-size: x-large;
+   padding: 10px;
+   cursor: pointer;
+}
+.tabBar
+{
+   width: 70%;
+}
+.showColumn
+{
+    column-count: 3;
+}
+
+@media screen and (max-width: 490px) {
+    .profileImage{
+    height: 150px;
+    width:150px;
+    border-radius: 50%;
+    margin-left: 5%;
+    // justify-content: center;
+    margin-top:-30%;
+    box-shadow: 5px 5px 10px rgba(113, 88, 88, 0);
+    padding: 3px; 
+    }
+    .tabBar
+    {
+        width: 100%;
+    }
+    .showColumn {
+        column-count: 0;
+    }
+}
