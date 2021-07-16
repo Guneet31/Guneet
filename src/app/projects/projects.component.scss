@@ -1,0 +1,17 @@
+.cardAnimation
+{
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      margin-bottom: 100%;
+ 
+    }
+  
+    to {
+      margin-top: 0%;
+  
+    }
+  }
