@@ -1,1 +1,24 @@
-<p>projects works!</p>
+<div class="row mt-4">
+<div class="col-md-4">
+<!-- <ng-container *ngFor="let projects of projectsArray;let i=index;"> -->
+    <mat-grid-list cols="2" rowHeight="1:1">
+        <mat-grid-tile *ngFor="let projects of projectsArray">
+<mat-card class="cardAnimation" style="height: 100px;width: 100px;cursor: pointer;" (click)="onAppClick(projects)">
+    <mat-card-title>{{projects}}</mat-card-title>
+    <mat-card-content></mat-card-content>
+</mat-card>
+        </mat-grid-tile>
+      </mat-grid-list>
+<!-- <mat-card style="background-color: aliceblue;height: 100px;width: 100px;">
+    <mat-card-title>{{projects}}</mat-card-title>
+    <mat-card-content></mat-card-content>
+</mat-card> -->
+<!-- </ng-container> -->
+</div>
+<div class="col-md-8">
+   <mat-card>
+    <mat-card-title>{{projectName}}</mat-card-title>
+    <mat-card-content>{{projectDescription}}</mat-card-content>
+</mat-card> 
+</div>
+</div>
