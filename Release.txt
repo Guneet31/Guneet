@@ -1,0 +1,5 @@
+Developed iOS Applications using Swift 3.0+
+Experience working on frameworks such as Map Kit,Sprite Kit, AVKit
+Experience working with cococa pods inside prjects
+Worked on fullstack iOS Applications
+Developed ml models in XCode using Swift

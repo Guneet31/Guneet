@@ -10,7 +10,7 @@ import '@github/typing-effect-element';
 })
 export class AppComponent implements OnInit {
   title = 'Guneet';
-  list = ['Hi','Welcome to my Portfolio Website!']
+  list = [' Design 🎨','<Develop 💻/>', 'Deploy ☁️😶‍🌫️']
   isMobile:Boolean = false
 
   constructor(private _snackBar: MatSnackBar) {}
