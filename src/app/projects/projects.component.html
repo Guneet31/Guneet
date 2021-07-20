@@ -3,10 +3,11 @@
 <!-- <ng-container *ngFor="let projects of projectsArray;let i=index;"> -->
     <mat-grid-list cols="2" rowHeight="1:1">
         <mat-grid-tile *ngFor="let projects of projectsArray">
-<mat-card class="cardAnimation" style="height: 100px;width: 100px;cursor: pointer;" (click)="onAppClick(projects)">
-    <mat-card-title>{{projects}}</mat-card-title>
-    <mat-card-content></mat-card-content>
-</mat-card>
+<!-- <mat-card class="cardAnimation" style="height: fit-content;width: fit-content;cursor: pointer;" (click)="onAppClick(projects.name)"> -->
+    <!-- <mat-card-title>{{projects.img}}</mat-card-title> -->
+    <img  class="cardAnimation" [src]="projects.img" style="height: 100px;width: 100px; cursor: pointer;border-radius: 20px;box-shadow: -5px,10x,gray;" (click)="onAppClick(projects.name)"/>
+    <!-- <mat-card-content></mat-card-content> -->
+<!-- </mat-card> -->
         </mat-grid-tile>
       </mat-grid-list>
 <!-- <mat-card style="background-color: aliceblue;height: 100px;width: 100px;">
@@ -17,8 +18,8 @@
 </div>
 <div class="col-md-8">
    <mat-card>
-    <mat-card-title>{{projectName}}</mat-card-title>
-    <mat-card-content>{{projectDescription}}</mat-card-content>
+    <mat-card-title>{{projectName.name}}</mat-card-title>
+    <mat-card-content>{{projectDescription.name}}</mat-card-content>
 </mat-card> 
 </div>
 </div>
