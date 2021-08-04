@@ -27,4 +27,8 @@ export class AppComponent implements OnInit {
   openSnackBar(message: string, action: string) {
     this._snackBar.open(message, action);
   }
+  openLink(link:any)
+  {
+    window.open(link)
+  }
 }
