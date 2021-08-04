@@ -1,25 +1,26 @@
 <div class="row mt-4">
-<div class="col-md-4">
+<div class="col-md-12">
 <!-- <ng-container *ngFor="let projects of projectsArray;let i=index;"> -->
-    <mat-grid-list cols="2" rowHeight="1:1">
-        <mat-grid-tile *ngFor="let projects of projectsArray">
+    <!-- <mat-grid-list cols="2" rowHeight="2:2"> -->
+        <!-- <mat-grid-tile *ngFor="let projects of projectsArray"> -->
 <!-- <mat-card class="cardAnimation" style="height: fit-content;width: fit-content;cursor: pointer;" (click)="onAppClick(projects.name)"> -->
     <!-- <mat-card-title>{{projects.img}}</mat-card-title> -->
-    <img  class="cardAnimation" [src]="projects.img" style="height: 100px;width: 100px; cursor: pointer;border-radius: 20px;box-shadow: -5px,10x,gray;" (click)="onAppClick(projects.name)"/>
+    <img *ngFor="let projects of projectsArray"  class="cardAnimation" [src]="projects.img" style="height: 100px;width: 100px;margin: 4%; cursor: pointer;border-radius: 20px;box-shadow: 10px 10px 5px grey" (click)="onAppClick(projects.name)"/>
     <!-- <mat-card-content></mat-card-content> -->
 <!-- </mat-card> -->
-        </mat-grid-tile>
-      </mat-grid-list>
+        <!-- </mat-grid-tile> -->
+      <!-- </mat-grid-list> -->
 <!-- <mat-card style="background-color: aliceblue;height: 100px;width: 100px;">
     <mat-card-title>{{projects}}</mat-card-title>
     <mat-card-content></mat-card-content>
 </mat-card> -->
 <!-- </ng-container> -->
 </div>
-<div class="col-md-8">
+<!-- Hidden Temporarily -->
+<!-- <div class="col-md-8">
    <mat-card>
     <mat-card-title>{{projectName.name}}</mat-card-title>
     <mat-card-content>{{projectDescription.name}}</mat-card-content>
 </mat-card> 
-</div>
+</div> -->
 </div>
