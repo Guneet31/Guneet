@@ -56,7 +56,20 @@
     border-radius:10px 20px 10px 20px;
     box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.63);
 }
-
+.imageCoding 
+{
+    border-radius:10px 20px 10px 20px;
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.63);
+    width: 350px;
+    height: 300px;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
 
 @media screen and (max-width: 490px) {
     .profileImage{
