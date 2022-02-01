@@ -1,37 +1,90 @@
-
-    <div class="row">
-    <div class="upperBox" style="height: 25vh;width:100%;background-color: cornflowerblue;">
-    <h1 id="welcomeText" style="color: black;text-align: center;
+<div class="row">
+  <div class="upperBox" style="height: 20vh;width:100%;background-color:#030327;
+    ;">
+    <h1 id="welcomeText"
+      style="color: white;text-align: center;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-  <ngtypewriter [StringList]='list' [speed]='1000'></ngtypewriter>
+      <ngtypewriter [StringList]='list' [speed]='1000'></ngtypewriter>
     </h1>
-    </div>
-    <div class="col-md-12" style="text-align: center;">
-    <img src="assets/profile_guneet.png" class="profileImage"/>
+  </div>
+  <div class="col-md-12" style="text-align: center;">
+    <img src="assets/profile_guneet.png" class="profileImage" />
     <span></span>
-    </div>
-    </div>
-    <!-- belowDetails -->
-    <div class="row">
-    <div class="belowBox col-md-12" style="height: 10%;width: 100%;margin-top: -5px;text-align: center;">
-    <h4 style="text-align:center;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-    Guneet Singh Lamba<br/> 
-    Web and Mobile Application Developer<br/>
-    <i class="fab fa-linkedin icon"(click)="openLink('https://www.linkedin.com/in/guneet-singh-lamba-6b5221156/')"></i> <i class="fas fa-envelope icon" (click)="openSnackBar('416-949-2955', 'Message')"></i> <i class="fas fa-mobile icon"  (click)="openSnackBar('416-949-2955', 'Call')"></i> <i class="fab fa-app-store-ios icon" (click)="openLink('https://apps.apple.com/ca/app/chakra/id1509880276')"></i>
+  </div>
+</div>
+<!-- belowDetails -->
+<div class="row">
+  <div class="belowBox col-md-12" style="height: 10%;width: 100%;margin-top: -5px;text-align: center;">
+    <h4
+      style="text-align:center;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+      Guneet Singh Lamba<br />
+      Web and Mobile Application Developer<br />
+      <i class="fab fa-linkedin icon"
+        (click)="openLink('https://www.linkedin.com/in/guneet-singh-lamba-6b5221156/')"></i> <i
+        class="fas fa-envelope icon" (click)="openSnackBar('416-949-2955', 'Message')"></i> <i
+        class="fas fa-mobile icon" (click)="openSnackBar('416-949-2955', 'Call')"></i> <i
+        class="fab fa-app-store-ios icon" (click)="openLink('https://apps.apple.com/ca/app/chakra/id1509880276')"></i>
     </h4>
+  </div>
+</div>
+<div class="row">
+  <!-- <div class="col-md-4 d-none d-md-block"> 
+      </div> -->
+  <!-- <div class="col-md-4"> -->
+  <div class="projectHeader">
+    <h2 style="color:white;text-align: center;"><b>About Me</b></h2>
+    <div class="row">
+      <div class="col-md-8">
+        <h3 style="color: white; text-align: left;margin-left: 8%;">Web and Mobile Application Developer, who loves to
+          make interactive applications which can solve problems. I am experienced in Angular,
+          Swift, React, Ionic, HTML, CSS, JavaScript, Bootstrap, Node.js, Express, MongoDB, MySQL, RESTful APIs,
+          Blockchain. I am a self-motivated person who is always willing to learn new technologies and work on new
+          projects.
+        </h3>
+
+        <div class="quote">
+          <h4 style="color: white;"><I>“To know how much there is to know is the beginning of learning to live.”
+              —Dorothy West</I></h4>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img src="assets/onSystem.png" class="image" />
+      </div>
     </div>
+
+    <div class="row" style="text-align: center;">
+      <h2 style="color:white;text-align: center;margin-left: 5%;color: yellowgreen;"><b>Take A Look At Some My
+          Projects</b></h2>
+      <div class="col-md-12">
+        <app-projects></app-projects>
+      </div>
+
+
+
     </div>
-    <div class="row" style="height: 100%;" >
-      <div class="col-md-3 d-none d-md-block"></div>
-        <div class="col-md-8">
-          <mat-tab-group class="tabBars">
+
+
+
+
+
+
+  </div>
+
+
+
+
+  <!-- <div class="projectHeader">
+            <h2 style="color:white;text-align: center;"><b>My Applications</b></h2>
+            <app-projects></app-projects>
+          </div> -->
+  <!-- <mat-tab-group class="tabBars">
             <mat-tab label="Projects 🗂"><app-projects></app-projects></mat-tab>
             <mat-tab label="Skills ⚒️"><app-skills></app-skills> </mat-tab>
             <mat-tab label="Experience 💼"><app-experience></app-experience></mat-tab>
-            <mat-tab label="Education 📚"><app-education></app-education></mat-tab>
-            <!-- <mat-tab label="Projects"> V5 </mat-tab> -->
-          </mat-tab-group>
-        <!-- <ul class="nav nav-tabs" style="width: 100%; justify-content: center;">
+            <mat-tab label="Education 📚"><app-education></app-education></mat-tab> -->
+  <!-- <mat-tab label="Projects"> V5 </mat-tab> -->
+  <!-- </mat-tab-group> -->
+  <!-- <ul class="nav nav-tabs" style="width: 100%; justify-content: center;">
             <li class="nav-item">
               <a class="nav-link active" href="../../experience.html" role="tab">Experience</a>
             </li>
@@ -45,5 +98,5 @@
               <a class="nav-link" href="projects.html" role="tab" >Projects</a>
             </li>
           </ul> -->
-        </div>
-    </div>
+  <!-- </div> -->
+</div>
