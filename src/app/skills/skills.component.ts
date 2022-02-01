@@ -8,7 +8,7 @@ import { FormControl } from '@angular/forms';
   styleUrls: ['./skills.component.scss']
 })
 export class SkillsComponent implements OnInit {
-  skillsArray = ["Swift ⎨🕊⎬", "SwiftUI 🔥📱", "XCode 💻", "Angular ⎨🅰️⎬", "TypeScript⎨✝️⎬", "JavaScript⎨🉑⎬", "C++ ⎨🔱⎬", "MySQL 📀", "Firebase 💿","NodeJS ⎨🚊⎬", "AdobeXD 🎨","Team Work 👩🏼‍💻🧑🏻‍💻","Time Management ⏱"]
+  skillsArray = ["Swift ⎨🕊⎬", "SwiftUI 🔥📱", "XCode 💻", "Angular ⎨🅰️⎬", "TypeScript⎨✝️⎬", "JavaScript⎨🉑⎬", "C++ ⎨🔱⎬","MySQL 📀", "Blockchain", "Web3.0","Firebase 💿","NodeJS ⎨🚊⎬", "AdobeXD 🎨","Team Work 👩🏼‍💻🧑🏻‍💻","Time Management ⏱"]
 
   selectedSkill = "Swift ⎨🕊⎬";
   selectedSkillDescription = "<p>Developed iOS Applications using Swift 3.0+<br/>Experience working on frameworks such as Map Kit, Sprite Kit, AVKit, UIKit<br/>Experience working with cocoa pods inside projects<br/> Worked on fullstack iOS Applications<br/>Developed ml models in XCode using Swift</p>";
