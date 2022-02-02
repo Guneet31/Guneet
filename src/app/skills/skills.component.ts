@@ -65,7 +65,7 @@ this.selectedSkillDescription = "<p>Experience working in teams with 4-5 members
     {
       this.selectedSkillDescription = "<p>Experience working in time constraints<br/>Experience working on live projects which has deadlines to meet<br/>Follow Scrum and agile techniques to achieve goals<br/></p>"
     }
-
+// added some changes
 
 
 
