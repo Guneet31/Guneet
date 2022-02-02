@@ -8,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class ProjectsComponent implements OnInit {
 
   projectsArray = [
-  {id:1,name: "Crypto Web Store",img:"assets/crypto.png",link:"https://devpost.com/software/crypto-jeweler-gated-nft-token"},
-  {id:2,name: "Crypto Web Store",img:"assets/crypto.png",link:"https://devpost.com/software/crypto-jeweler-gated-nft-token"},
-  {id:3,name: "Crypto Web Store",img:"assets/crypto.png",link:"https://devpost.com/software/crypto-jeweler-gated-nft-token"}]
+  {id:1,name: "Gated NFT ",img:"assets/crypto.png",link:"https://devpost.com/software/crypto-jeweler-gated-nft-token"},
+  {id:2,name: "NFT Minting",img:"assets/vmt.png",link:"https://github.com/Guneet31/vmthub-frontend"},
+  // {id:3,name: "Crypto Web Store",img:"assets/crypto.png",link:"https://devpost.com/software/crypto-jeweler-gated-nft-token"}
+]
   projectName:any = {id:1,name: "Chakra",img:"assets/chakra.png",link:"https://apps.apple.com/ca/app/chakra/id1509880276"};
   projectDescription:any = {id:1,name: "Chakra",img:"assets/chakra.png"};
   constructor() { }

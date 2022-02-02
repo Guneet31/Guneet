@@ -14,9 +14,10 @@
 </div>
 <!-- belowDetails -->
 <div class="row">
-  <div class="belowBox col-md-12" style="height: 10%;width: 100%;margin-top: -5px;text-align: center;">
+  <div class="belowBox col-md-12" style="height: 10%;width: 100%;margin-top: -1px;text-align: center;background-color: #030327;">
     <h4
-      style="text-align:center;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+      style="text-align:center;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: white;">
       Guneet Singh Lamba<br />
       Web and Mobile Application Developer<br />
       <i class="fab fa-linkedin icon"
@@ -50,40 +51,64 @@
       <div class="col-md-4">
         <img src="assets/onSystem.png" class="image" />
       </div>
-      <h2 style="color:white;text-align: center;margin-left: 40%;color: yellowgreen;"><b>Take A Look At Some My
-        Projects</b></h2><br/>
+      <h2 style="color:white;text-align: center;margin-left: 45%;margin-top:2%;color: yellowgreen;"><b>My
+        Skills</b></h2><br/>
     </div>
-    <div class="row" style="margin-top:2%">
-      <div class="col-md-2" style="margin-left: 2%;">
+        <!-- skills section -->
+        <div class="row">
+          <app-skills></app-skills> 
+          <h2 style="color:white;text-align: center;margin-left: 40%;margin-top:2%;color: yellowgreen;"><b>Take A Look At Some My
+            Projects</b></h2><br/>
+        </div>
+        <!-- apps section -->
+    <div class="row" style="margin-top:4%">
+      <div class="col-md-2" style="margin-left: 4%;">
         <img src="assets/coding.png" class="imageCoding"/>
         </div>
-        <div class="col-md-8" style="margin-left: 8%;">
-          <h2 style="color:white;">Web Applications</h2>
+        <div class="col-md-4" style="margin-left: 8%;text-align: start;">
+          <h2 style="color:white;margin-left: 2%;">Web Applications</h2>
           <app-projects></app-projects>
         </div>
+        <div class="col-md-4">
+          <h2 style="color:white;">iOS Applications/Games</h2>
+          <img *ngFor="let projects of iosApplicationArray"  class="" [src]="projects.img" style="height: 100px;width: 100px;margin:2%; cursor: pointer;border-radius: 20px;box-shadow: 10px 10px 5px rgba(212, 210, 210, 0.226)" (click)="onAppClick(projects.name)"/>
+        </div>
+        <h2 style="color:white;text-align: center;margin-left: 40%;margin-top:2%;color: yellowgreen;">
+          <b>Currently In Progress</b></h2><br/>
     </div>
+ <!-- Work on this -->
     <div class="row">
+      <div class="col-md-6">
+        <h3 style="color: white; text-align: left;margin-left: 8%;">
+         Application will be used develop metahuman for metaverse, using tools such as Unreal Engine 5 and mint them as NFT's.
+         The Goal is to import these metahuman in Games, social platforms, metaverse or can be used as a Gated NFT for authorization purposes.
+         With the help of audio syncronisation, user can add voice messages to metahuman and can use them on their web application, mobile apps or blog website.
+         Primary Focus is to integrate Web3.0 technology with tools like Unreal Engine or Unity to create more emmersive and real characters. The character you are seeing is made in Unreal Engine 5. It is a basic represntaion of how it will look.
+         To get into more detail about this please click on this <a href="https://github.com/Guneet31/vmthub-frontend" target="_blank">link</a>
+        </h3>
+      </div>
+       
+<div class="col-md-6">
+  <video autoplay loop muted playsinline="true" 
+  style="width: 80%;height:80%;border-radius:10px 20px 10px 20px;"
+  webkit-playsinline="true" src="assets/Guneet_Metahuman.mp4" type="video/mp4">
+  </video>
+</div>
+        
+    </div>
+
+
+
+
+
+    <!-- <div class="row">
       <div class="col-md-2" style="margin-left: 2%;"></div>
       <div class="col-md-8" style="margin-left: 8%;">
         <h2 style="color:white;">iOS Applications/Games</h2>
         <img *ngFor="let projects of iosApplicationArray"  class="" [src]="projects.img" style="height: 100px;width: 100px;margin:2%; cursor: pointer;border-radius: 20px;box-shadow: 10px 10px 5px rgba(212, 210, 210, 0.226)" (click)="onAppClick(projects.name)"/>
       </div>
-    </div>
-    <!-- Work on this -->
-    <!-- <div class="row">
-      <h2 style="color:white;text-align: center;margin-left: 40%;margin-top:2%;color: yellowgreen;">
-        <b>In progress</b></h2><br/>
-        <video autoplay loop muted playsinline="true" 
-        style="width: 50%;height:50%"
-        webkit-playsinline="true" src="assets/Guneet_Metahuman.mp4" type="video/mp4">
-        </video>
     </div> -->
-    <!-- skills section -->
-    <div class="row">
-      <h2 style="color:white;text-align: center;margin-left: 40%;margin-top:2%;color: yellowgreen;"><b>My
-        Skills</b></h2><br/>
-      <app-skills></app-skills> 
-    </div>
+   
   </div>
 
 
