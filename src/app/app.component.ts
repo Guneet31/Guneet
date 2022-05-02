@@ -21,7 +21,8 @@ export class AppComponent implements OnInit {
   {id: 6,name:"fifaApp",img:"assets/fifa.png",link:"https://bitbucket.org/GuneetSingh311/guneetsingh_c0727012_mad5314_activity3-5/src/master/"},
   {id:7,name:"FDG",img:"assets/dragongame.png",link:"https://bitbucket.org/GuneetSingh311/guneetsingh_c0727012_mad5244_androidassignment/src/master/"},
   {id: 8,name:"NCG",img:"assets/catgame.png",link:"https://bitbucket.org/GuneetSingh311/guneetsingh_c0727012_mad5244_iosassignment/src/master/"},
-  {id:1,name: "Chakra",img:"assets/chakra.png",link:"https://apps.apple.com/ca/app/chakra/id1509880276"}]
+  // {id:1,name: "Chakra",img:"assets/chakra.png",link:"https://apps.apple.com/ca/app/chakra/id1509880276"}
+]
   constructor(private _snackBar: MatSnackBar) {}
 
 
