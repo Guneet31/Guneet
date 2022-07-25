@@ -16,7 +16,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatCardModule} from '@angular/material/card';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import {MatGridListModule} from '@angular/material/grid-list';
-
+import {MatTooltipModule} from '@angular/material/tooltip';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,7 +36,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatInputModule,
     MatCardModule,
     MatSnackBarModule,
-   MatGridListModule
+   MatGridListModule,
+   MatTooltipModule
     
     
   ],
