@@ -1,0 +1,49 @@
+.image 
+{
+    border-radius:10px 20px 10px 20px;
+    width: 400px;
+    margin-bottom: 2px;
+    // box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.63);
+}
+.appImages
+{
+    width:70px;
+    margin-bottom: 2px;
+    border-radius:10px 20px 10px 20px;
+}
+.apod
+{
+    width: 400px;
+    border-radius:10px 20px 10px 20px;
+}
+
+.name{
+    color: greenyellow;
+}
+
+ .projectintro
+ {
+    color:greenyellow;
+   
+ }
+
+ @media screen and (max-width: 600px) {
+    .image 
+    {
+        width: 200px;
+        margin-bottom: 2px;
+        // box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.63);
+    }
+    .appImages
+    {
+        width:50px;
+        margin-bottom: 2px;
+        border-radius:10px 20px 10px 20px;
+    }
+    .apod
+    {
+        width: 300px;
+        border-radius:10px 20px 10px 20px;
+    }
+    
+ }

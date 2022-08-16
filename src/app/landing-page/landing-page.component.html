@@ -1,0 +1,117 @@
+
+<div class="nes-container is-dark">
+    <div class="nes-container is-centered is-dark" style="border: 0">
+    <img src="assets/coding.gif" class="image" />
+    </div>
+    <p class="title name"><b>Guneet Singh Lamba</b> | FullStack Developer</p>
+    <p class="title" style="color: mediumpurple">Hi, I am a dedicated and passionate FullStack Developer who likes to build Mobile/Web Application.
+    <p class="title" style="color: mediumpurple"> My tech-stack is 
+        <a  class="nes-badge">
+        <span class="is-error">Angular8+</span>
+      </a> &nbsp;
+      <a  class="nes-badge">
+        <span class="is-error">Ionic5</span>
+      </a> &nbsp;
+      <a  class="nes-badge">
+        <span class="is-error">Nodejs</span>
+      </a> &nbsp;
+      <a  class="nes-badge">
+        <span class="is-error">Expressjs</span>
+      </a> &nbsp;
+      <a  class="nes-badge">
+        <span class="is-error">MySQL</span>
+      </a> &nbsp;
+      <a  class="nes-badge">
+        <span class="is-error">Firebase</span>
+      </a> &nbsp;
+      <a  class="nes-badge">
+        <span class="is-error">AWSCloud</span>
+      </a> &nbsp;
+      <a  class="nes-badge">
+        <span class="is-error">Azure</span>
+      </a> &nbsp;
+      <a  class="nes-badge">
+        <span class="is-error">Swift4+</span>
+      </a>&nbsp;
+      <a  class="nes-badge">
+        <span class="is-error">JavaScript</span>
+      </a>
+      &nbsp;
+      <a  class="nes-badge">
+        <span class="is-error">VueJs</span>
+      </a>
+    </p>
+</div>
+<div class="nes-container is-centered is-dark introContainer">
+    <p class="title projectintro">
+    <b>Here are some of my current development projects</b>
+    </p>
+</div>
+    <div class="nes-container is-dark">
+        
+    <img src="assets/apod.png" class="apod" />
+    <p class="title" style="margin-top: 1%" style="color: mediumpurple">
+    <span style="color: mediumvioletred">DiscoverSpace</span> is a web application which is developed using Angular framework and hosted on firebase. It shows data of latest APOD(Astronomy Picture of the Day), Mars Rover Photos and nearest asteroid to Earth using NASA openAPI.
+    User can also select a filter to see the data for different time periods.
+    </p>
+    <a class="nes-badge">
+        <span class="is-success" (click)="openLink('https://discoverspace-d2ee6.web.app/apod')">Live Site</span>
+      </a>
+    </div>
+<!-- Second project -->
+<div class="nes-container is-dark">
+<img src="assets/vt.png" class="apod" />
+<p class="title" style="margin-top: 1%" style="color: mediumpurple">
+    <span style="color: mediumslateblue">VMT</span> is a web3.0 application which is developed using Angular framework, Web3.js, Solidity(Ethereum). This project is a blockchain project where every time User
+    creates a post, it gets minted on Ethereum blockchain as a ERC721 token(NFT).This project is currently in development phase.If you want to run this project on local system follow github page for instructions.
+    </p>
+    <a class="nes-badge">
+        <span class="is-primary" (click)="openLink('https://github.com/Guneet31/vmthub-frontend')">Github</span>
+      </a>
+</div>
+<!-- Third project -->
+<div class="nes-container is-dark">
+    <img src="assets/chrp.png" class="apod" />
+    <p class="title" style="margin-top: 1%" style="color: mediumpurple">
+        <span style="color: magenta">T1</span> is a web application which is developed using Angular framework and hosted on firebase. This project is a social media application where users can create and share post.
+        The backend is being developed using Nodejs, Expressjs, firebase database. It shows posts in realtime and in descending order.It is in development phase but you can sign up using Google and join T1 to create posts and share with the world.
+        </p>
+        <a class="nes-badge">
+            <span class="is-success" (click)="openLink('https://chirp-7bcde.web.app/signup')">Live Site</span>
+          </a>
+</div>
+<div class="nes-container is-centered is-dark introContainer">
+    <p class="title projectintro">
+    <b>When Creative thoughts gets mixed with Coding</b>
+    </p>
+    <p>Here are some of my hobby projects which are not live but are still in development phase. You can click on the github link and follow instruction to run the project locally on your system
+    </p>
+</div>
+<div class="nes-container is-dark">
+    <div class="lists" *ngFor="let app of ApplicationArray">
+        <ul class="nes-list is-disc">
+          <li>
+            <img [src]="app.img" class="appImages"/>
+            <p class="title" style="color: mediumpurple">{{app.name}}</p>
+            <a class="nes-badge">
+                <span class="is-primary" (click)="openLink(app.link)">Github</span>
+              </a>
+        </li>
+        </ul>
+      </div>
+</div>
+<div class="nes-container is-centered is-dark">
+    <p class="title projectintro">Get in Contact</p>
+    <section class="icon-list">
+        <a href="mailto:lambaguneetsingh@gmail.com"><i class="nes-icon gmail is-medium"></i></a>
+        <i class="nes-icon github is-medium" (click)="openLink('https://github.com/Guneet31')"></i>
+        <i class="nes-icon linkedin is-medium" (click)="openLink('https://www.linkedin.com/in/guneet-singh-lamba-6b5221156/')"></i>
+    </section>
+</div>
+
+
+
+
+
+
+
